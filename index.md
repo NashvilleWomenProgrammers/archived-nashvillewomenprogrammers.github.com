@@ -20,10 +20,9 @@ This group is hosted by women programmers with the goal to build a welcoming env
 5:30pm - 8pm. Every 2nd and 4th Monday. For the most updated meeting information, check this Meetup Group.
 
 # Where
-Nashville Software School
-283 Plus Park Blvd
-Nashville, TN 37217
-
+Eventbrite Nashville
+209 10th Ave S
+Nashville, TN 37203
 
 #Format
 We often have speakers/presentations. We will communicate the topic and skill-level ahead of time.
