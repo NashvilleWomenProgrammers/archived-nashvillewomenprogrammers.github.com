@@ -4,8 +4,8 @@ This is a fork of the [Minimal Mistakes Jekyll theme](http://jekyllthemes.org/th
 
 If you're a member of our github organization, you can clone and edit the site on our [github page](https://github.com/nashville-women-programmers/nashville-women-programmers.github.com).  If you aren't a member, you can fork the project from there and then edit it.
 
-1. Make sure you have jekyll installed (`gem install jekyll`).
-2. Fork this site from our [github page](https://github.com/nashville-women-programmers/nashville-women-programmers.github.com), then clone yoru fork of the site.
+1. Run `bundle install` to make sure you have all the necessary dependencies installed.
+2. Fork this site from our [github page](https://github.com/nashville-women-programmers/nashville-women-programmers.github.com), then clone your fork of the site.
 3. Once you've downloaded the project, swap out the comments on lines 5 and 6 of `_config.yml`.
 4. Then, run `jekyll serve --watch` in the project directory.
 5. The site will now be visible locally at [localhost:4000](localhost:4000).
