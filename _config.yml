@@ -1,9 +1,11 @@
 title:            Nashville Women Programmers
+locale:           en_US
 tagline:          A short tagline
 description:      Describe your website.
 #Swap out url when working locally to resolve base urls correctly
-# url:              http://localhost:4000
-url:              http://nashvillewomenprogrammers.com
+url:              http://localhost:4000
+# url:              http://nashvillewomenprogrammers.com
+permalink:   /:categories/:title/
 
 # Owner/author information
 owner:
@@ -12,45 +14,44 @@ owner:
   bio:            "NWP is a group of women programmers that meet regularly to build a welcoming environment to learn and to grow diversity in the programming field. People of all backgrounds and skill levels are welcome to attend."
   email:          eliza@elizabrocksoftware.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:
+  disqus-shortname: 
+  twitter: #username
   facebook: groups/nashSTEAM/
+  google:
+    plus: #username
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
   github: nashville-women-programmers
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
   meetup: NashvilleWomenProgrammers
-  linkedin:
-  instagram:
-  lastfm:
-  tumblr:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
 google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: About
-    url: /
-  - title: Articles
-    url: /articles
-  - title: NWP Meetup Group
-    url: http://www.meetup.com/NashvilleWomenProgrammers/
-    external: true
-  - title: NWP Google Group
-    url: https://groups.google.com/forum/#!forum/nashville-women-programmers
-    external: true
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/Chicago
-future:      true
-pygments:    true
 markdown:    kramdown
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
 
 kramdown:
   auto_ids: true
@@ -59,12 +60,5 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

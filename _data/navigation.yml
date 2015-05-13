@@ -1,0 +1,13 @@
+# Site navigation links
+
+- title: About
+  url: /
+
+- title: Articles
+  url: /articles
+
+- title: NWP Meetup Group
+  url: http://www.meetup.com/NashvilleWomenProgrammers/
+
+- title: NWP Google Group
+  url: https://groups.google.com/forum/#!forum/nashville-women-programmers
